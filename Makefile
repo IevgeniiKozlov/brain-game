@@ -1,6 +1,6 @@
 install:
 	npm install
-brain-games:
-	node bin/brain-games.js
+start:
+	npx babel-node bin/brain-games.js
 publish:
 	npm publish --dry-run

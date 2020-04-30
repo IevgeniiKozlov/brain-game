@@ -2,7 +2,8 @@
   "name": "frontend-project-lvl1",
   "version": "1.0.0",
   "description": "",
-  "main": "brain-games.js",
+  "main": "src/cli.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +11,7 @@
     "brain-games": "bin/brain-games.js"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/Alaska90/frontend-project-lvl1.git"
   },
   "author": "Kozlov Ievgenii",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/Alaska90/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Alaska90/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/Alaska90/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  }
 }
