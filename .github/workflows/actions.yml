@@ -44,3 +44,4 @@ jobs:
         # Run Linter
       run: |
           make lint
+      shell: bash
