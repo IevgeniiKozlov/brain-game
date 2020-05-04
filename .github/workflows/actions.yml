@@ -41,7 +41,7 @@ jobs:
       env:
         CI: true
     - name: Run linter
-      shell: bash
+      shell: sh
 
         # Run Linter
       run: |
