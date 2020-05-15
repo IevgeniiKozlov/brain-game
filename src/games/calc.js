@@ -22,6 +22,7 @@ const gameData = () => {
     case '*':
       return [question, num1 * num2];
     default:
+      throw new Error('Error');
   }
 };
 
