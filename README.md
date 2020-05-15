@@ -5,4 +5,4 @@
 ![My-GitHub-Actions](https://github.com/Alaska90/frontend-project-lvl1/workflows/My-GitHub-Actions/badge.svg)
 
 # Instruction
-[![asciicast](https://asciinema.org/a/zqJHyNZlNZ0tjQIDgPW4bA22W.svg)](https://asciinema.org/a/zqJHyNZlNZ0tjQIDgPW4bA22W)
+[![asciicast](https://asciinema.org/a/HoLYjNVEVDkc2uzS9yMa4VgrA.svg)](https://asciinema.org/a/HoLYjNVEVDkc2uzS9yMa4VgrA)
