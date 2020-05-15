@@ -11,6 +11,7 @@ const getLetPlay = (description, gameData) => {
     const answerUser = readlineSync.question(`Question: ${questionGame} ? \n`);
     if (answerGame.toString() === answerUser) {
       console.log('Correct!');
+      // eslint-disable-next-line no-continue
       continue;
     } else {
       console.log(`${answerUser} is wrong answer ;(  Correct answer was ${answerGame}. Let's try again, ${nameUser}!`);
