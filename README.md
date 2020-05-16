@@ -4,5 +4,8 @@
 # Checking linter
 ![My-GitHub-Actions](https://github.com/Alaska90/frontend-project-lvl1/workflows/My-GitHub-Actions/badge.svg)
 
-# Instruction
+# Instruction brain-calc
 [![asciicast](https://asciinema.org/a/zqJHyNZlNZ0tjQIDgPW4bA22W.svg)](https://asciinema.org/a/zqJHyNZlNZ0tjQIDgPW4bA22W)
+
+# Instruction brain-gcd
+[![asciicast](https://asciinema.org/a/HZ1rppFYA5FFeizWRNrGqkHiz.svg)](https://asciinema.org/a/HZ1rppFYA5FFeizWRNrGqkHiz)
