@@ -4,6 +4,9 @@
 # Checking linter
 ![My-GitHub-Actions](https://github.com/Alaska90/frontend-project-lvl1/workflows/My-GitHub-Actions/badge.svg)
 
+# Instruction brain-even
+[![asciicast](https://asciinema.org/a/ClutXmQVzXTytF1e2nxrPJLRG.svg)](https://asciinema.org/a/ClutXmQVzXTytF1e2nxrPJLRG)
+
 # Instruction brain-calc
 [![asciicast](https://asciinema.org/a/HoLYjNVEVDkc2uzS9yMa4VgrA.svg)](https://asciinema.org/a/HoLYjNVEVDkc2uzS9yMa4VgrA)
 
