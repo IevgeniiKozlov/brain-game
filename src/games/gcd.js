@@ -19,5 +19,4 @@ const gameData = () => {
   return [question, tmp];
 };
 
-
 export default () => getLetPlay(description, gameData);
