@@ -13,5 +13,8 @@
 # Instruction brain-gcd
 [![asciicast](https://asciinema.org/a/HZ1rppFYA5FFeizWRNrGqkHiz.svg)](https://asciinema.org/a/HZ1rppFYA5FFeizWRNrGqkHiz)
 
+# Instruction brain-progression
+[![asciicast](https://asciinema.org/a/WnniCYSZQc9HJPk9PijCz0wUo.svg)](https://asciinema.org/a/WnniCYSZQc9HJPk9PijCz0wUo)
+
 # Instruction brain-prime
 [![asciicast](https://asciinema.org/a/AIjoNoDuLggCdHOkzS81fJ5g6.svg)](https://asciinema.org/a/AIjoNoDuLggCdHOkzS81fJ5g6)
