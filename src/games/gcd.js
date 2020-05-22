@@ -16,7 +16,7 @@ const gameData = () => {
       tmp = i;
     }
   }
-  return [question, tmp];
+  return [question, tmp.toString()];
 };
 
 export default () => getLetPlay(description, gameData);

@@ -16,11 +16,11 @@ const gameData = () => {
   const question = `${num1} ${sign} ${num2}`;
   switch (sign) {
     case '+':
-      return [question, num1 + num2];
+      return [question, (num1 + num2).toString()];
     case '-':
-      return [question, num1 - num2];
+      return [question, (num1 - num2).toString()];
     case '*':
-      return [question, num1 * num2];
+      return [question, (num1 * num2).toString()];
     default:
       throw new Error('Error');
   }

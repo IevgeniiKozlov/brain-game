@@ -9,7 +9,7 @@ const getLetPlay = (description, gameData) => {
   for (let i = 0; i < 3; i += 1) {
     const [questionGame, answerGame] = gameData();
     const answerUser = readlineSync.question(`Question: ${questionGame} ? \n`);
-    if (answerGame.toString() === answerUser) {
+    if (answerGame === answerUser) {
       console.log('Correct!');
       // eslint-disable-next-line no-continue
       continue;
