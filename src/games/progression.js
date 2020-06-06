@@ -1,29 +1,24 @@
-#!/usr/bin/env node
+import getRandomInt from '../random-integer.js';
 import getLetPlay from '../cli.js';
-
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 
 const description = 'What number is missing in the progression?';
 
-const generateProgression = () => {
-  const num = getRandomInt(1, 100);
-  const numProgression = getRandomInt(1, 10);
-  const arr = [num];
-  while (arr.length < 10) {
-    const lastIndex = arr.length - 1;
-    arr.push(arr[lastIndex] + numProgression);
-  }
-  return arr;
+const generateProgression = (start, step, iter) => {
+  const num = start + (step * iter);
+  if (iter === 9) return num;
+  return [num, generateProgression(start, step, iter + 1)];
 };
+
 const gameData = () => {
-  const progression = generateProgression();
+  const num = getRandomInt(1, 100);
+  const step = getRandomInt(1, 10);
+  const progression = generateProgression(num, step, 0).flat(Infinity);
   const index = getRandomInt(0, 10);
-  const hidenNumber = progression[index];
+  const answer = progression[index].toString();
   progression[index] = '..';
   const question = progression.join(' ');
-  return [question, hidenNumber.toString()];
+  return [question, answer];
 };
 
 

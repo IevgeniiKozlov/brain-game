@@ -1,8 +1,5 @@
-#!/usr/bin/env node
+import getRandomInt from '../random-integer.js';
 import getLetPlay from '../cli.js';
-
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const description = 'What is the result of the expression?';
 
@@ -14,16 +11,21 @@ const gameData = () => {
   const index = getRandomInt(0, 2);
   const sign = operand[index];
   const question = `${num1} ${sign} ${num2}`;
+  let answer;
   switch (sign) {
     case '+':
-      return [question, (num1 + num2).toString()];
+      answer = (num1 + num2).toString();
+      break;
     case '-':
-      return [question, (num1 - num2).toString()];
+      answer = (num1 - num2).toString();
+      break;
     case '*':
-      return [question, (num1 * num2).toString()];
+      answer = (num1 * num2).toString();
+      break;
     default:
       throw new Error('Error');
   }
+  return [question, answer];
 };
 
 export default () => getLetPlay(description, gameData);

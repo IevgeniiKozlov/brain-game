@@ -1,16 +1,20 @@
-#!/usr/bin/env node
+import getRandomInt from '../random-integer.js';
 import getLetPlay from '../cli.js';
-
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
+const isEven = (num) => {
+  if (num % 2 === 0) {
+    return 'yes';
+  }
+  return 'no';
+};
+
 const gameData = () => {
   const num = getRandomInt(1, 100);
-  if (num % 2 === 0) {
-    return [num, 'yes'];
-  }
-  return [num, 'no'];
+  const question = `${num}`;
+  const answer = isEven(num);
+  return [question, answer];
 };
 
 
