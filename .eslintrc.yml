@@ -2,8 +2,6 @@
 env:
   node: true
 
-parser: "esprima"
-
 extends:
   - 'airbnb-base'
   - 'plugin:import/recommended'

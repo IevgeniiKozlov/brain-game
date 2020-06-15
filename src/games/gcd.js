@@ -3,7 +3,7 @@ import getLetPlay from '../cli.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
-const isNod = (num1, num2) => {
+const getDivisor = (num1, num2) => {
   const minNum = Math.min(num1, num2);
   let tmp;
   for (let i = 1; i <= minNum; i += 1) {
@@ -14,12 +14,12 @@ const isNod = (num1, num2) => {
   return tmp.toString();
 };
 
-const gameData = () => {
+const getGcd = () => {
   const num1 = getRandomInt(1, 100);
   const num2 = getRandomInt(1, 100);
-  const question = `${num1} & ${num2}`;
-  const answer = isNod(num1, num2);
+  const question = [num1, '&', num2].join(' ');
+  const answer = getDivisor(num1, num2);
   return [question, answer];
 };
 
-export default () => getLetPlay(description, gameData);
+export default () => getLetPlay(description, getGcd);

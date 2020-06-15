@@ -5,12 +5,13 @@ const description = 'What is the result of the expression?';
 
 const operand = ['+', '-', '*'];
 
-const gameData = () => {
+const getCalc = () => {
   const num1 = getRandomInt(1, 100);
   const num2 = getRandomInt(1, 100);
-  const index = getRandomInt(0, 2);
+  const index = getRandomInt(0, operand.length - 1);
   const sign = operand[index];
-  const question = `${num1} ${sign} ${num2}`;
+  const question = [num1, sign, num2].join(' ');
+  console.log(question);
   let answer;
   switch (sign) {
     case '+':
@@ -28,4 +29,4 @@ const gameData = () => {
   return [question, answer];
 };
 
-export default () => getLetPlay(description, gameData);
+export default () => getLetPlay(description, getCalc);

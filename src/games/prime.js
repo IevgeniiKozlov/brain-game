@@ -3,7 +3,7 @@ import getLetPlay from '../cli.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const isNaturalNum = (num) => {
+const getNaturalNum = (num) => {
   let count = 0;
   for (let i = 1; i <= num; i += 1) {
     if (num % i === 0) {
@@ -14,11 +14,11 @@ const isNaturalNum = (num) => {
 };
 
 
-const gameData = () => {
+const getPrime = () => {
   const num = getRandomInt(1, 100);
-  const question = `${num}`;
-  const answer = isNaturalNum(num);
+  const question = num.toString();
+  const answer = getNaturalNum(num);
   return [question, answer];
 };
 
-export default () => getLetPlay(description, gameData);
+export default () => getLetPlay(description, getPrime);
