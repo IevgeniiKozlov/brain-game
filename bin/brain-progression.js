@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import getLetPlay from '../src/games/progression.js';
+import letPlay from '../src/games/progression.js';
 
 
-getLetPlay();
+letPlay();

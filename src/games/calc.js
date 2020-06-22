@@ -1,32 +1,31 @@
 import getRandomInt from '../random-integer.js';
-import getLetPlay from '../cli.js';
+import letPlay from '../cli.js';
 
 const description = 'What is the result of the expression?';
 
-const operand = ['+', '-', '*'];
+const mathSigns = ['+', '-', '*'];
 
 const getCalc = () => {
   const num1 = getRandomInt(1, 100);
   const num2 = getRandomInt(1, 100);
-  const index = getRandomInt(0, operand.length - 1);
-  const sign = operand[index];
-  const question = [num1, sign, num2].join(' ');
-  console.log(question);
+  const index = getRandomInt(0, mathSigns.length - 1);
+  const sign = mathSigns[index];
+  const question = `${num1} ${sign} ${num2}`;
   let answer;
   switch (sign) {
     case '+':
-      answer = (num1 + num2).toString();
+      answer = (num1 + num2);
       break;
     case '-':
-      answer = (num1 - num2).toString();
+      answer = (num1 - num2);
       break;
     case '*':
-      answer = (num1 * num2).toString();
+      answer = (num1 * num2);
       break;
     default:
       throw new Error('Error');
   }
-  return [question, answer];
+  return [question, answer.toString()];
 };
 
-export default () => getLetPlay(description, getCalc);
+export default () => letPlay(description, getCalc);

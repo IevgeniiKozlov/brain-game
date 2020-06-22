@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import getLetPlay from '../src/games/prime.js';
+import letPlay from '../src/games/prime.js';
 
 
-getLetPlay();
+letPlay();
