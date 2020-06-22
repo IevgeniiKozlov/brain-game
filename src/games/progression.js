@@ -12,7 +12,7 @@ const getProgression = (start, step, iter) => {
   return [num, getProgression(start, step, iter + 1)];
 };
 
-const generateGameData= () => {
+const generateGameData = () => {
   const num = getRandomInt(1, 100);
   const step = getRandomInt(1, 10);
   const progression = getProgression(num, step, 1).flat(Infinity);
