@@ -12,11 +12,11 @@ const isPrime = (num) => {
 };
 
 
-const generateGameData = () => {
+const getPrime = () => {
   const num = getRandomInt(1, 100);
   const question = num.toString();
   const answer = isPrime(num) ? 'yes' : 'no';
   return [question, answer];
 };
 
-export default () => letPlay(description, generateGameData);
+export default () => letPlay(description, getPrime);
