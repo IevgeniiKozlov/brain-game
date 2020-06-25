@@ -6,18 +6,16 @@ const letPlay = (description, getData) => {
   const nameUser = readlineSync.question('May I have your name?\n');
   console.log(`Hello, ${nameUser}!`);
   console.log(`${description}`);
-  const levelCount = 3;
-  for (let i = 0; i < levelCount; i += 1) {
+  const levelsCount = 3;
+  for (let i = 0; i < levelsCount; i += 1) {
     const [questionGame, answerGame] = getData();
     const answerUser = readlineSync.question(`Question: ${questionGame}?\n`);
-    if (answerGame === answerUser) {
-      console.log('Correct!');
-      // eslint-disable-next-line no-continue
-      continue;
-    } else {
+    if (answerGame !== answerUser) {
       console.log(`${answerUser} is wrong answer ;(`);
       console.log(`Correct answer was ${answerGame}. Let's try again, ${nameUser}!`);
-    } break;
+      return;
+    }
+    console.log('Correct!');
   }
   console.log(`Congratulations, ${nameUser}!`);
 };
