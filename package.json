@@ -1,7 +1,11 @@
 {
-  "name": "frontend-project-lvl1",
+  "name": "@kozlov.e/brain-games",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI games-app for brain training",
+  "keywords": [
+    "hexlet",
+    "brain-games"
+  ],
   "main": "src/cli.js",
   "type": "module",
   "scripts": {
