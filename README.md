@@ -1,8 +1,15 @@
-# frontend-project-lvl1
+<div align="center">
+  <img alt="file analyze" title="file-difference-calculator" src="https://cdn-icons-png.flaticon.com/512/2083/2083139.png" width="150"/>
+</div>
+
+<div align="center"> 
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/42f028473ae57a397e1a/maintainability)](https://codeclimate.com/github/Alaska90/frontend-project-lvl1/maintainability)
 
-# Checking linter
 ![My-GitHub-Actions](https://github.com/Alaska90/frontend-project-lvl1/workflows/My-GitHub-Actions/badge.svg)
+
+</div>
+
 
 ## About Brain Games
 

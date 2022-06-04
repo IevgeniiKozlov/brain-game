@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alaska90/frontend-project-lvl1.git"
+    "url": "git+https://github.com/Alaska90/brain-games.git"
   },
   "author": "Kozlov Ievgenii",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alaska90/frontend-project-lvl1/issues"
+    "url": "https://github.com/Alaska90/brain-games/issues"
   },
-  "homepage": "https://github.com/Alaska90/frontend-project-lvl1#readme",
+  "homepage": "https://github.com/Alaska90/brain-games#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
