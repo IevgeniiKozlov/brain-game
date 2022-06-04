@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alaska90/brain-games.git"
+    "url": "git+https://github.com/IevgeniiKozlov/brain-game"
   },
   "author": "Kozlov Ievgenii",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alaska90/brain-games/issues"
+    "url": "https://github.com/IevgeniiKozlov/brain-game/issues"
   },
-  "homepage": "https://github.com/Alaska90/brain-games#readme",
+  "homepage": "https://github.com/IevgeniiKozlov/brain-game#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
