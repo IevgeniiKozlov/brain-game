@@ -4,7 +4,7 @@
 
 <div align="center"> 
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/42f028473ae57a397e1a/maintainability)](https://codeclimate.com/github/Alaska90/frontend-project-lvl1/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/dcb9425ac7858d40e990/maintainability)](https://codeclimate.com/github/IevgeniiKozlov/brain-game/maintainability)
 
 ![My-GitHub-Actions](https://github.com/Alaska90/frontend-project-lvl1/workflows/My-GitHub-Actions/badge.svg)
 
