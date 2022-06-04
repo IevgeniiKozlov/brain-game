@@ -13,8 +13,8 @@ const isPrime = (num) => {
 
 
 const getPrime = () => {
-  const num = getRandomInt(1, 100);
-  const answer = isPrime(num) ? 'yes' : 'no';
+  const question = getRandomInt(1, 100);
+  const answer = isPrime(question) ? 'yes' : 'no';
   return [String(question), answer];
 };
 
