@@ -31,7 +31,7 @@ This pet-project was created as part of the [Hexlet](https://ru.hexlet.io/progra
 ## Getting started
 
 ```sh
-git clone https://github.com/IevgeniiKozlov/brain-game.git
+git clone https://github.com/IevgeniiKozlov/brain-games.git
 cd brain-games/
 make install
 make link
