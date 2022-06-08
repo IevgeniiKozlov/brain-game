@@ -4,8 +4,9 @@
 
 <div align="center"> 
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/dcb9425ac7858d40e990/maintainability)](https://codeclimate.com/github/IevgeniiKozlov/brain-games/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f3a8c98b77a611d5bf41/maintainability)](https://codeclimate.com/github/IevgeniiKozlov/brain-games/maintainability)
 
+[![Node CI](https://github.com/IevgeniiKozlov/brain-games/actions/workflows/actions.yml/badge.svg)](https://github.com/IevgeniiKozlov/brain-games/actions/workflows/actions.yml)
 
 </div>
 
