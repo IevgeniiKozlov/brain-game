@@ -6,7 +6,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/dcb9425ac7858d40e990/maintainability)](https://codeclimate.com/github/IevgeniiKozlov/brain-game/maintainability)
 
-![My-GitHub-Actions](https://github.com/Alaska90/frontend-project-lvl1/workflows/My-GitHub-Actions/badge.svg)
+
 
 </div>
 
@@ -65,9 +65,11 @@ The user is shown two random numbers, for example 25 50. The user must calculate
 [![asciicast](https://asciinema.org/a/HZ1rppFYA5FFeizWRNrGqkHiz.svg)](https://asciinema.org/a/HZ1rppFYA5FFeizWRNrGqkHiz)
 
 ## "Arithmetic progression"
-Пользователю показывается ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
-Запуск игры: $ brain-progression
+The user is shown a series of numbers that form an arithmetic progression, replacing any of the numbers with two points. The player must determine this number.
+
+**launch:** $ brain-progression
+
 [![asciicast](https://asciinema.org/a/WnniCYSZQc9HJPk9PijCz0wUo.svg)](https://asciinema.org/a/WnniCYSZQc9HJPk9PijCz0wUo)
 
 ## "Is it a prime number?"
