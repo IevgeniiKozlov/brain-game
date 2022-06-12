@@ -32,7 +32,7 @@ This pet-project was created as part of the [Hexlet](https://ru.hexlet.io/progra
 
 ```sh
 git clone https://github.com/IevgeniiKozlov/brain-games.git
-cd brain-games/
+cd brain-games
 make install
 make link
 ```
